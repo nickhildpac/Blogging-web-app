@@ -1,5 +1,3 @@
-import React from 'react'
-
 function Quote() {
   return (
     <div className='bg-slate-200 h-screen flex flex-col justify-center'>

@@ -1,4 +1,3 @@
-import React from 'react'
 import BlogCard from '../components/BlogCard'
 import AppBar from '../components/AppBar'
 import { useBlogs } from '../hooks'
@@ -39,6 +38,7 @@ function Blogs() {
                 authorName={blog.author.name || "Ninjs"} 
                 content={blog.content}
                 title={blog.title}
+                publishedDate='25th Aug 2024'
               />
           )}
         </div>

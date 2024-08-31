@@ -1,5 +1,4 @@
 import Quote from '../components/Quote'
-import {Auth} from '../components/Auth'
 import { AuthSignin } from '../components/AuthSignin'
 
 function Signin() {
